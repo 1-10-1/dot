@@ -1,0 +1,103 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "buildRoot": "${projectDir}\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "clang_cl_x64_x64" ],
+      "variables": [
+        {
+          "name": "CMAKE_CXX_COMPILER",
+          "value": "C:/Program Files/LLVM/bin/clang++.exe",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "CMAKE_C_COMPILER",
+          "value": "C:/Program Files/LLVM/bin/clang.exe",
+          "type": "STRING"
+        },
+        {
+          "name": "BUILD_SHARED_LIBS",
+          "value": "False",
+          "type": "BOOL"
+        }
+      ],
+      "enableClangTidyCodeAnalysis": true
+    },
+    {
+      "name": "x64-Release",
+      "generator": "Ninja",
+      "configurationType": "Release",
+      "buildRoot": "${projectDir}\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "clang_cl_x64_x64" ],
+      "variables": [
+        {
+          "name": "CMAKE_CXX_COMPILER",
+          "value": "C:/Program Files/LLVM/bin/clang++.exe",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "CMAKE_C_COMPILER",
+          "value": "C:/Program Files/LLVM/bin/clang.exe",
+          "type": "STRING"
+        },
+        {
+          "name": "BUILD_SHARED_LIBS",
+          "value": "False",
+          "type": "BOOL"
+        }
+      ],
+      "enableClangTidyCodeAnalysis": true
+    },
+    {
+      "name": "x64-RelWithDebInfo",
+      "generator": "Ninja",
+      "configurationType": "RelWithDebInfo",
+      "buildRoot": "${projectDir}\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "clang_cl_x64_x64" ],
+      "variables": [
+        {
+          "name": "CMAKE_CXX_COMPILER",
+          "value": "C:/Program Files/LLVM/bin/clang++.exe",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "CMAKE_C_COMPILER",
+          "value": "C:/Program Files/LLVM/bin/clang.exe",
+          "type": "STRING"
+        },
+        {
+          "name": "BUILD_SHARED_LIBS",
+          "value": "False",
+          "type": "BOOL"
+        }
+      ],
+      "enableClangTidyCodeAnalysis": true
+    },
+    {
+      "name": "x64-Debug-2",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "buildRoot": "${projectDir}\\build\\${name}",
+      "installRoot": "${projectDir}\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "variables": []
+    }
+  ]
+}

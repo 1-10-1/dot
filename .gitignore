@@ -1,0 +1,11 @@
+.vscode/
+.idle/
+.vs/
+.cache/
+build/
+out/
+bin/
+ext/
+*.log
+*.vim
+*.pdb
